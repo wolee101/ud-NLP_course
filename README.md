@@ -12,7 +12,7 @@ The goal of this course is to learn cutting-edge natural language processing tec
 
 1. [Part of speech tagger](./1_HMM_tagger/readme.md)
 
-A hidden Markov model (HMM) for part of speech tagging with a [universal tagset](http://www.petrovi.de/data/universal.pdf) was built using the [Pomegranate](https://github.com/jmschrei/pomegranate) library . A Most Frequent Class (MFC) tagger was built and used as a baseline to estimate the frequency of tags and words in the training corpus. text processing techniques. When the model was evaluated, the test set accuracy was 96%.
+A hidden Markov model (HMM) for part of speech tagging with a [universal tagset](http://www.petrovi.de/data/universal.pdf) was built using the [Pomegranate](https://github.com/jmschrei/pomegranate) library. A Most Frequent Class (MFC) tagger was built and used as a baseline to estimate the frequency of tags and words in the training corpus. text processing techniques. When the model was evaluated, the test set accuracy was 96%.
 
 
 2. [Machine translator](./2_Machine_translator/readme.md)
@@ -22,7 +22,7 @@ A deep neural network was built that functions as part of an end-to-end machine 
 
 3. [Speech recognizer](./3_DNN_speech_recognizer/readme.md)  
 
-A deep neural network was built that functioned as part of an end-to-end automatic speech recognition (ASR) pipeline. After building several neural networks that maped audio features to transcribed text, the final model used a combination of a convolutional neural network and bi-directional recurrent neural networks. The model converted raw audio input into feature representations and then into transcribed text. Keras was used again.
+A deep neural network was built that functions as part of an end-to-end automatic speech recognition (ASR) pipeline. After building several neural networks that mapped audio features to transcribed text, the final model used a combination of a convolutional neural network and bi-directional recurrent neural networks. The model converted raw audio input into feature representations and then into transcribed text. Keras was used again.
 
 
 ## **Datasets:**
