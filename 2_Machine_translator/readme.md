@@ -1,6 +1,5 @@
 # **Project 2: Machine Translator**
 
-![Machine translator](../images/machine_translator.png)
 <p align="center">
           <img src="../images/machine_translator.png" width="600"/>
 </p>
