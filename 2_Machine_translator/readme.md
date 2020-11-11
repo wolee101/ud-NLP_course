@@ -19,7 +19,7 @@ The tasks for this project are outlined in the `machine_translation.ipynb` in th
 *   Turn each sentence into a sequence of words ids and apply padding to handle unequal length of sentences in the corpus
 
 
-## **Step 2 - Build DNNs **
+## **Step 2 - Build DNNs**
 
 
 
@@ -39,7 +39,7 @@ The tasks for this project are outlined in the `machine_translation.ipynb` in th
     *   Bidirectional RNN with embedding + Encoder-Decoder RNN  
 *   Obtain predictions on the final model and evaluate model performance
 
-## **Below is the content of the README file included in the course.
+## **Below is the content of the README file included in the course.**
 
 # Introduction
 In this notebook, you will build a deep neural network that functions as part of an end-to-end machine translation pipeline. Your completed pipeline will accept English text as input and return the French translation.

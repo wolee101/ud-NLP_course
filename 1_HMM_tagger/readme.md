@@ -48,7 +48,7 @@ Below are the two github repositories used to complete the project. You can down
 *   [AIND GitHub](https://github.com/udacity/artificial-intelligence)(Projects/4_HMM Tagger)
 *   [NLPND GitHub](https://github.com/udacity/hmm-tagger)
 
-## **Below is the content of the README file included in the course.
+## **Below is the content of the README file included in the course.**
 
 ## Introduction
 
