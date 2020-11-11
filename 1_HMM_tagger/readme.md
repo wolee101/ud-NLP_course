@@ -1,11 +1,6 @@
 
 # **Project 1: Part of Speech Tagger**
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![HMM tagger](images/hmm_tagger.png "HMM tagger")
 
 
@@ -17,17 +12,17 @@ The Pomegranate library was used to build a hidden Markov model for part of spee
 ## **Tasks**
 
 
-# The tasks for this project are outlined in the HMM tagger.ipynb in three steps. Below are the steps taken.
+The tasks for this project are outlined in the HMM tagger.ipynb in three steps. Below are the steps taken.
 
 
-## **Step 1 - Review the text corpus**
+**Step 1 - Review the text corpus**
 
 
 
 *   Review the interface to load and access the text corpus
 
 
-## **Step 2 - Build a MFC tagger**
+**Step 2 - Build a MFC tagger**
 
 
 
@@ -36,7 +31,7 @@ The Pomegranate library was used to build a hidden Markov model for part of spee
 *   Evaluate the accuracy of the MFC tagger
 
 
-## **Step 3 - Build an HMM tagger**
+**Step 3 - Build an HMM tagger**
 
 
 
@@ -46,11 +41,9 @@ The Pomegranate library was used to build a hidden Markov model for part of spee
 *   Evaluate the accuracy of the HMM tagger
 
 
-# **Github repositories:**
+###Github repositories:
 
 Below are the two github repositories used to complete the project. You can download a copy of the project materials, select the appropriate link for your program below, then follow the instructions in the readme to set up and complete the project.
-
-
 
 *   [AIND GitHub](https://github.com/udacity/artificial-intelligence)(Projects/4_HMM Tagger)
 *   [NLPND GitHub](https://github.com/udacity/hmm-tagger)
