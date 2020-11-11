@@ -1,11 +1,6 @@
 # **Project 3: DNN Speech Recognizer**
 
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+![Speech Recognizer](https://github.com/wolee101/ud-NLP_course/blob/master/images/speech_recognizer.png)
 
 
 Speech recognition, also known as automatic speech recognition (ASR), has a wide range of applications including, but not limited to, speech to text service, chatbots for customer service, and voice assistants like Amazon’s Alexa. Unlike traditional phonetic-based models such as an HMM model, an end-to-end ASR model uses recurrent neural networks that works well for temporal dependency of speech. A deep neural network that functions as part of an end-to-end automatic speech recognition (ASR) pipeline was explored and built for this project.
