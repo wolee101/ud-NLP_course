@@ -25,7 +25,7 @@ A deep neural network was built that functions as part of an end-to-end machine 
 A deep neural network was built that functioned as part of an end-to-end automatic speech recognition (ASR) pipeline. After building several neural networks that maped audio features to transcribed text, the final model used a combination of a convolutional neural network and bi-directional recurrent neural networks. The model converted raw audio input into feature representations and then into transcribed text. Keras was used again. 
 
 
-## **Dataset used:**
+## **Datasets:**
 
 Below are the datasets used for each project listed above.
 1. A copy of the[ Brown corpus](https://en.wikipedia.org/wiki/Brown_Corpus) (originally from the NLTK library) that has already been pre-processed to only include the [universal tagset](https://arxiv.org/pdf/1104.2086.pdf) 
