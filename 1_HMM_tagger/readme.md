@@ -1,7 +1,7 @@
 
 # **Project 1: Part of Speech Tagger**
 
-![HMM tagger](images/hmm_tagger.png "HMM tagger")
+![HMM tagger](https://github.com/wolee101/ud-NLP_course/blob/master/images/hmm_tagger.png)
 
 
 Part of speech tagging is the process of determining the syntactic category of a word from the words in its surrounding context. It is often used to help disambiguate natural language phrases because it can be done quickly with high accuracy. Tagging can be used for many NLP tasks like determining correct pronunciation during speech synthesis (for example, _dis_-count as a noun vs dis-_count_ as a verb), retrieving information, and disambiguating word sense.
@@ -41,7 +41,7 @@ The tasks for this project are outlined in the HMM tagger.ipynb in three steps. 
 *   Evaluate the accuracy of the HMM tagger
 
 
-###Github repositories:
+### Github repositories:
 
 Below are the two github repositories used to complete the project. You can download a copy of the project materials, select the appropriate link for your program below, then follow the instructions in the readme to set up and complete the project.
 
