@@ -1,11 +1,6 @@
 # **Project 3: DNN Speech Recognizer**
 
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+![Speech Recognizer](../images/speech_recognizer.png)
 
 
 Speech recognition, also known as automatic speech recognition (ASR), has a wide range of applications including, but not limited to, speech to text service, chatbots for customer service, and voice assistants like Amazon’s Alexa. Unlike traditional phonetic-based models such as an HMM model, an end-to-end ASR model uses recurrent neural networks that works well for temporal dependency of speech. A deep neural network that functions as part of an end-to-end automatic speech recognition (ASR) pipeline was explored and built for this project.
@@ -47,7 +42,7 @@ The tasks for this project are outlined in the vui_notebook.ipynb in three steps
 *   Obtain predictions on the final model
 *   Evaluate the transcription accuracy and think of ways to improve model performance
 
-** Explanation of the final DNN speech recognition model
+### Description of the final DNN speech recognition model
 
 The evaluation of different models revealed that a combination of the CNN and RNN model performed better than other sample models. To develop a final model architecture, I first tried to add bid-directional and recurrent layers separately to the CNN + RNN + TimeDistributed Dense model in an attempt to improve its performance. However, the results were about the same or slightly worse than the original model. After testing multiple model architectures, I decided to include all of them--bi-directional, CNN, RNN, and Dense layers --in the model. It clearly improved the model performance. I trained these models with and without dropouts to address the overfitting issues. In general, the results were slightly better when dropouts were not included in the model but I kept them in the final model to address the overfitting issues.
 
@@ -58,7 +53,7 @@ The final model I built is a combination of the bi-directional, CNN, and RNN mod
 3. RNN layer was added in a loop.
 4. Batch normalization was applied again for each RNN layer.
 5. Dropout layer was added.
-6. TimeDistributed Dense layer was applied after each dropout layer. 
+6. TimeDistributed Dense layer was applied after each dropout layer.
 7. Softmax activation was added as a last layer.
 
 The training and validation loss suggested that the final model outperformed the sample models (model 0 to model 4). To increase the transcription accuracy further, a larger amount of training data is required for the model to learn more effectively. For speed purposes, a small amount of training data was provided in this course so the input data was inadequate in size to achieve high accuracy. Adding more data can also help address the issue of model overfitting, as shown in the increase in the validation loss.
