@@ -42,7 +42,7 @@ The tasks for this project are outlined in the vui_notebook.ipynb in three steps
 *   Obtain predictions on the final model
 *   Evaluate the transcription accuracy and think of ways to improve model performance
 
-** Explanation of the final DNN speech recognition model
+### Description of the final DNN speech recognition model
 
 The evaluation of different models revealed that a combination of the CNN and RNN model performed better than other sample models. To develop a final model architecture, I first tried to add bid-directional and recurrent layers separately to the CNN + RNN + TimeDistributed Dense model in an attempt to improve its performance. However, the results were about the same or slightly worse than the original model. After testing multiple model architectures, I decided to include all of them--bi-directional, CNN, RNN, and Dense layers --in the model. It clearly improved the model performance. I trained these models with and without dropouts to address the overfitting issues. In general, the results were slightly better when dropouts were not included in the model but I kept them in the final model to address the overfitting issues.
 
