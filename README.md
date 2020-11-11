@@ -3,7 +3,7 @@ README.md - NLP projects
 
 ## **Project Title**
 
-NLP projects (Udacity Natural Language Processing Course projects).
+NLP projects (Udacity Natural Language Processing Course projects)
 
 
 ## **Description**
@@ -12,7 +12,7 @@ The goal of this course is to learn cutting-edge natural language processing tec
 
 1. [Part of speech tagger](https://github.com/wolee101/ud-NLP_course/Part_of_speech_tagger/master/README.md) 
 
-A hidden Markov model (HMM) for part of speech tagging with a [universal tagset] (http://www.petrovi.de/data/universal.pdf) was built using the [Pomegranate](https://github.com/jmschrei/pomegranate) library . A Most Frequent Class (MFC) tagger was built and used as a baseline to estimate the frequency of tags and words in the training corpus. text processing techniques. When the model was evaluated, the test set accuracy was 96%.
+A hidden Markov model (HMM) for part of speech tagging with a [universal tagset](http://www.petrovi.de/data/universal.pdf) was built using the [Pomegranate](https://github.com/jmschrei/pomegranate) library . A Most Frequent Class (MFC) tagger was built and used as a baseline to estimate the frequency of tags and words in the training corpus. text processing techniques. When the model was evaluated, the test set accuracy was 96%.
 
 
 2. [Machine translator](https://github.com/wolee101/ud-NLP_course/Machine_translator/master/README.md) 
