@@ -1,6 +1,9 @@
 # **Project 2: Machine Translator**
 
 ![Machine translator](../images/machine_translator.png)
+<p align="center">
+          <img src="../images/machine_translator.png" width="600"/>
+</p>
 
 There are about 6,500 languages spoken in the world. Machine translation is an automated translation from one language to another. Google Translate or Microsoft Translator are the examples of top performing machine translation services. Over the years of research, different methods were created for machine translation, such as [[rule-based](https://en.wikipedia.org/wiki/Rule-based_machine_translation)](https://en.wikipedia.org/wiki/Rule-based_machine_translation), [[statistical](https://en.wikipedia.org/wiki/Statistical_machine_translation)](https://en.wikipedia.org/wiki/Statistical_machine_translation), and [[example-based](https://en.wikipedia.org/wiki/Example-based_machine_translation)](https://en.wikipedia.org/wiki/Example-based_machine_translation) machine translation. Unlike these traditional approaches, Integration of deep learning in machine translation made more efficient and faster training possible using massive datasets. This led to higher accuracy and better performance. An end-to-end deep learning machine translation model was built for this project.   
 
@@ -37,7 +40,7 @@ The tasks for this project are outlined in the `machine_translation.ipynb` in th
     *   Bidirectional RNN with embedding + Encoder-Decoder RNN  
 *   Obtain predictions on the final model and evaluate model performance
 
-## **Below is the README file included in the course
+## **Below is the content of the README file included in the course.
 
 # Introduction
 In this notebook, you will build a deep neural network that functions as part of an end-to-end machine translation pipeline. Your completed pipeline will accept English text as input and return the French translation.
