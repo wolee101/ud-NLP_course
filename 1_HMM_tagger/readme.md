@@ -1,6 +1,10 @@
 # **Project 1: Part of Speech Tagger**
 
+<<<<<<< HEAD
 ![HMM tagger](../images/hmm_tagger.png)
+=======
+![HMM tagger](https://github.com/wolee101/ud-NLP_course/blob/master/images/hmm_tagger.png)
+>>>>>>> d629087f5e4dea32ea600503215e50c4ed89ce50
 
 
 Part of speech tagging is the process of determining the syntactic category of a word from the words in its surrounding context. It is often used to help disambiguate natural language phrases because it can be done quickly with high accuracy. Tagging can be used for many NLP tasks like determining correct pronunciation during speech synthesis (for example, _dis_-count as a noun vs dis-_count_ as a verb), retrieving information, and disambiguating word sense.
