@@ -12,7 +12,7 @@ The goal of this course is to learn cutting-edge natural language processing tec
 
 1. [Part of speech tagger](./1_HMM_tagger/readme.md)
 
-A hidden Markov model (HMM) for part of speech tagging with a [universal tagset](http://www.petrovi.de/data/universal.pdf) was built using the [Pomegranate](https://github.com/jmschrei/pomegranate) library. A Most Frequent Class (MFC) tagger was built and used as a baseline to estimate the frequency of tags and words in the training corpus. text processing techniques. When the model was evaluated, the test set accuracy was 96%.
+A hidden Markov model (HMM) for part of speech tagging with a [universal tagset](http://www.petrovi.de/data/universal.pdf) was built using the [Pomegranate](https://github.com/jmschrei/pomegranate) library. A Most Frequent Class (MFC) tagger was built and used as a baseline to estimate the frequency of tags and words in the training corpus. When the model was evaluated, the test set accuracy was 96%.
 
 
 2. [Machine translator](./2_Machine_translator/readme.md)
